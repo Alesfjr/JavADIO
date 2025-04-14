@@ -1,11 +1,11 @@
 package POO3;
 
-public class Employee {
+public sealed abstract class Employee permits Manager, Salesman {
 
     private String code;
     private String name;
     private String address;
-    private  double salary;
+    private double salary;
 
     public double getSalary() {
         return salary;
@@ -48,9 +48,6 @@ public class Employee {
     }
 
     private int age;
-
-
-
 
 
 }
