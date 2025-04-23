@@ -1,4 +1,4 @@
-package List.OperacoesBasicas.Listex2;
+package ColectionsList.OperacoesBasicas.Listex2;
 
 public class Item {
     private String nome;

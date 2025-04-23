@@ -1,4 +1,4 @@
-package List.OperacoesBasicas.Listex2;
+package ColectionsList.OperacoesBasicas.Listex2;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,6 +27,7 @@ public class Carinho  {
                 itensParaRemover.add(item);
             }
         }
+
         CarinhoCompras.removeAll(itensParaRemover);
     }
         public double calcularValorTotal(){
